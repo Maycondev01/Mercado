@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mercadora</title>
+</head>
+<body>
+    <div class="container">
+        <img src="https://cdn.w600.comps.canstockphoto.com.br/homem-avatar-desenho-coloridos-clip-arte-vetor_csp75322113.jpg" alt="mercado">
+        <div class="lista">
+        <h1>Compras do Mercado</h1>
+        <p>Produto: 
+            <input type="text" name="produto" id="inProduto" placeholder="Nome do produto...">
+        </p>
+        <p>Preço:
+            <input type="number" name="preco" id="inPreco" placeholder="Preço do produto...">
+        </p>
+        <button  id="btAdicionar" class="add">Adicionar</button>
+        <button id="btPrefere" class="pref">Preferência</button>
+        <button id="btExcluir" class="esc">Excluir</button>
+
+        <h3>Valor total: <span id="outTotal"></span></h3>
+
+        <pre id="outLista"></pre>
+        </div>
+    </div>
+</body>
+    <script src="./logica.js"></script>
+</html>

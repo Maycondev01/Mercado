@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+h1 {
+    margin: 10px;
+    border-bottom-style: inset;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex: 50%;
+}
+
+.lista {
+    background-color: rgb(196, 195, 194);  
+    width: 100%;
+    height: 100vh; 
+    align-items: center;
+    text-align: center;
+    flex: 50%;
+    
+}
+
+p {
+    margin: 10px;
+    font-size: 22px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.add {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.pref {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(3, 19, 247);
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.esc {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(247, 3, 3);
+    color: #fff;
+    cursor: pointer;
+}
+
+#outTotal {
+    color: red;
+    font-size: 22px;
+}
+
+#outLista {
+    font-size: 18px;
+
+}
+
